@@ -84,16 +84,50 @@ body{
     color: var(--cinza-secundario);
 }
 
-.container__botao--terceiro{
-    background-color: var(--botao-azul);
-    border-radius: 0.5rem;
-    padding: 1rem;
-    color: var(--branco-principal);
-    display: block;
-    text-decoration: none;
-    /* width: 10rem;
-    height: 2rem; */
-     margin: 1rem 33rem 0 0; 
+.secundario__botao{
+    margin-top: 0.3rem;
+    display: inline-block;
+}
+.container2{
+    height: 30vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
     text-align: center;
-    
+}
+
+.descricao__titulo2{
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--branco-principal);
+    margin-bottom: 0.1rem;
+    text-align: center;
+}
+
+.rodape {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.lista__link a {
+    text-decoration: none;
+    color: var(--branco-principal);
+    font-size: 1rem;
+}
+
+.rodape__texto {
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+}
+
+.logo_senac_feco{
+    width: 300px;
 }
